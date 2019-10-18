@@ -51,7 +51,16 @@ body {
 }
 
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 40px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#4CAF50;
+   color: white;
+   text-align: center;
 }
 </style>
 </head>
@@ -72,6 +81,13 @@ body {
   <h3>School Portal</h3>
   <p>The navbar will stick to the top when you reach its scroll position.</p>
   </div>
+
+<h2>Fixed/Sticky Footer Example</h2>
+<p>The footer is placed at the bottom of the page.</p>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
 
 <script>
 window.onscroll = function() {myFunction()};
